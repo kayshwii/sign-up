@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 16px;
+}
 
 body {
     background-color: rgb(29, 27, 27);
@@ -35,15 +38,15 @@ body {
 }
 
 .fa-hat-wizard {
-    margin: 20px 10px;
-    font-size: 80px;
+    margin: 1.25rem 1rem;
+    font-size: 5rem;
 }
 
 .logo-container p {
     font-family: "Tangerine", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
@@ -55,29 +58,29 @@ body {
 }
 
 .call-to-action {
-    padding: 200px 200px 0 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.411);
+    padding: 8rem 8rem 0 2rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.411);
 }
 
 /* form container styling */
 fieldset {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     border: none;
 }
 
 .form {
-    padding: 50px 0;
+    padding: 3rem 0;
 }
 
 legend {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .input-row {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .input-item {
@@ -88,14 +91,14 @@ legend {
 
 /* input styling */
 input {
-    height: 30px;
+    height: 2rem;
     border: 1px solid rgba(190, 184, 184, 0.555);
-    border-radius: 5px;
+    border-radius: 0.25rem;
     width: 80%;
 }
 
 .enter {
-    padding: 20px 200px  0 50px;
+    padding: 1.25rem 8rem  0 3rem;
 }
 
 .enter button {
