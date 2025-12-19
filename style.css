@@ -97,6 +97,11 @@ input {
     width: 80%;
 }
 
+input:focus {
+    outline: 2px solid green;
+}
+
+
 .enter {
     padding: 1.25rem 8rem  0 3rem;
 }
@@ -113,4 +118,10 @@ input {
 
 .enter button:hover {
     background-color: green;
+}
+
+
+
+.password input:invalid {
+    border-color: red;
 }
